@@ -1,0 +1,59 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 10/24/2018 09:39:52 PM
+// Design Name: 
+// Module Name: problem4_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module problem4_tb();
+
+reg clk;
+reg d;
+wire q;
+wire q_bar;
+
+problem4 problem4(
+.d(d),
+.clk(clk),
+.q(q),
+.q_bar(q_bar)
+);
+
+always
+begin
+    clk<=1;
+    #5;
+    clk<=0;
+    #5;
+end
+
+initial begin
+d=0;
+clk=0;
+end
+
+initial begin
+ d <= 0;
+ #100;
+ d <= 1;
+ #100;
+ d <= 0;
+ #100;
+ d <= 1;
+end
+endmodule

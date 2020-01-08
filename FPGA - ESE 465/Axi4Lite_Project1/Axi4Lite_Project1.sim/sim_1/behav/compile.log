@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/ese465/vivado/Axi4Lite_Project1/Axi4Lite_Project1.srcs/sources_1/imports/vivado/Axi4LiteRegs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Axi4LiteRegs
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/ese465/vivado/Axi4Lite_Project1/Axi4Lite_Project1.srcs/sources_1/imports/vivado/Axi4LiteSupporter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Axi4LiteSupporter
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/ese465/vivado/Axi4Lite_Project1/Axi4Lite_Project1.srcs/sources_1/imports/vivado/axi4litemanager.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Axi4LiteManager
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/ese465/vivado/Axi4Lite_Project1/Axi4Lite_Project1.srcs/sources_1/imports/vivado/Axi4liteRegs_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Axi4liteRegs_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/ese465/vivado/Axi4Lite_Project1/Axi4Lite_Project1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

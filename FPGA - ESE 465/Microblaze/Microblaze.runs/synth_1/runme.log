@@ -1,0 +1,357 @@
+
+*** Running vivado
+    with args -log microblaze_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_wrapper.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source microblaze_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Apps/Xilinx/Vivado/2017.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 338.457 ; gain = 50.133
+Command: synth_design -top microblaze_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11768 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 428.797 ; gain = 76.035
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'microblaze_wrapper' [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'microblaze' [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:13]
+INFO: [Synth 8-638] synthesizing module 'microblaze_axi_uartlite_0_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_axi_uartlite_0_0' (1#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'microblaze_axi_uartlite_0_0' requires 22 connections, but only 21 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:101]
+INFO: [Synth 8-638] synthesizing module 'microblaze_clk_wiz_1_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_clk_wiz_1_0' (2#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_clk_wiz_1_0_stub.v:5]
+WARNING: [Synth 8-350] instance 'clk_wiz_1' of module 'microblaze_clk_wiz_1_0' requires 5 connections, but only 4 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:123]
+INFO: [Synth 8-638] synthesizing module 'microblaze_mdm_1_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_mdm_1_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_mdm_1_0' (3#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_mdm_1_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'microblaze_microblaze_0_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_microblaze_0_0' (4#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'microblaze_0' of module 'microblaze_microblaze_0_0' requires 126 connections, but only 71 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:141]
+INFO: [Synth 8-638] synthesizing module 'microblaze_microblaze_0_axi_periph_0' [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:522]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_SYAVRW' [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:722]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_SYAVRW' (5#1) [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:722]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_microblaze_0_axi_periph_0' (6#1) [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:522]
+INFO: [Synth 8-638] synthesizing module 'microblaze_0_local_memory_imp_HPR3PZ' [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:288]
+INFO: [Synth 8-638] synthesizing module 'microblaze_dlmb_bram_if_cntlr_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_dlmb_bram_if_cntlr_0' (7#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'microblaze_dlmb_v10_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_dlmb_v10_0' (8#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'microblaze_dlmb_v10_0' requires 25 connections, but only 24 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:434]
+INFO: [Synth 8-638] synthesizing module 'microblaze_ilmb_bram_if_cntlr_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_ilmb_bram_if_cntlr_0' (9#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'microblaze_ilmb_v10_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_ilmb_v10_0' (10#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'microblaze_ilmb_v10_0' requires 25 connections, but only 24 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:480]
+INFO: [Synth 8-638] synthesizing module 'microblaze_lmb_bram_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_lmb_bram_0' (11#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_0_local_memory_imp_HPR3PZ' (12#1) [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:288]
+INFO: [Synth 8-638] synthesizing module 'microblaze_rst_clk_wiz_1_100M_0' [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_rst_clk_wiz_1_100M_0' (13#1) [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/realtime/microblaze_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_clk_wiz_1_100M' of module 'microblaze_rst_clk_wiz_1_100M_0' requires 10 connections, but only 9 given [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:276]
+INFO: [Synth 8-256] done synthesizing module 'microblaze' (14#1) [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze.v:13]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_wrapper' (15#1) [H:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/hdl/microblaze_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_SYAVRW has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_SYAVRW has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_SYAVRW has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_SYAVRW has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 468.125 ; gain = 115.363
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 468.125 ; gain = 115.363
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp21/microblaze_microblaze_0_0_in_context.xdc] for cell 'microblaze_i/microblaze_0'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp21/microblaze_microblaze_0_0_in_context.xdc] for cell 'microblaze_i/microblaze_0'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp23/microblaze_mdm_1_0_in_context.xdc] for cell 'microblaze_i/mdm_1'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp23/microblaze_mdm_1_0_in_context.xdc] for cell 'microblaze_i/mdm_1'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp25/microblaze_clk_wiz_1_0_in_context.xdc] for cell 'microblaze_i/clk_wiz_1'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp25/microblaze_clk_wiz_1_0_in_context.xdc] for cell 'microblaze_i/clk_wiz_1'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp27/microblaze_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'microblaze_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp27/microblaze_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'microblaze_i/rst_clk_wiz_1_100M'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp29/microblaze_axi_uartlite_0_0_in_context.xdc] for cell 'microblaze_i/axi_uartlite_0'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp29/microblaze_axi_uartlite_0_0_in_context.xdc] for cell 'microblaze_i/axi_uartlite_0'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp31/microblaze_dlmb_v10_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp31/microblaze_dlmb_v10_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp33/microblaze_ilmb_v10_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp33/microblaze_ilmb_v10_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp35/microblaze_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp35/microblaze_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp37/microblaze_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp37/microblaze_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp39/microblaze_lmb_bram_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp39/microblaze_lmb_bram_0_in_context.xdc] for cell 'microblaze_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 725.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:54 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:54 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp25/microblaze_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/.Xil/Vivado-8072-URB115-06/dcp25/microblaze_clk_wiz_1_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for microblaze_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for microblaze_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:54 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:54 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design microblaze_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:55 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/mdm_1/Dbg_Clk_0' to pin 'microblaze_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/mdm_1/Dbg_Update_0' to pin 'microblaze_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/clk_wiz_1/clk_out1' to pin 'microblaze_i/clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/clk_wiz_1/clk_out2' to pin 'microblaze_i/clk_wiz_1/bbstub_clk_out2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'microblaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'microblaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'microblaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5819] Moved 6 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 725.488 ; gain = 372.727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |microblaze_axi_uartlite_0_0     |         1|
+|2     |microblaze_clk_wiz_1_0          |         1|
+|3     |microblaze_mdm_1_0              |         1|
+|4     |microblaze_microblaze_0_0       |         1|
+|5     |microblaze_rst_clk_wiz_1_100M_0 |         1|
+|6     |microblaze_dlmb_bram_if_cntlr_0 |         1|
+|7     |microblaze_dlmb_v10_0           |         1|
+|8     |microblaze_ilmb_bram_if_cntlr_0 |         1|
+|9     |microblaze_ilmb_v10_0           |         1|
+|10    |microblaze_lmb_bram_0           |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |microblaze_axi_uartlite_0_0     |     1|
+|2     |microblaze_clk_wiz_1_0          |     1|
+|3     |microblaze_dlmb_bram_if_cntlr_0 |     1|
+|4     |microblaze_dlmb_v10_0           |     1|
+|5     |microblaze_ilmb_bram_if_cntlr_0 |     1|
+|6     |microblaze_ilmb_v10_0           |     1|
+|7     |microblaze_lmb_bram_0           |     1|
+|8     |microblaze_mdm_1_0              |     1|
+|9     |microblaze_microblaze_0_0       |     1|
+|10    |microblaze_rst_clk_wiz_1_100M_0 |     1|
+|11    |IBUF                            |     2|
+|12    |OBUF                            |     1|
++------+--------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+-------------------------------------+------+
+|      |Instance                      |Module                               |Cells |
++------+------------------------------+-------------------------------------+------+
+|1     |top                           |                                     |  1099|
+|2     |  microblaze_i                |microblaze                           |  1096|
+|3     |    microblaze_0_axi_periph   |microblaze_microblaze_0_axi_periph_0 |     0|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_HPR3PZ |   494|
++------+------------------------------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 734.938 ; gain = 124.813
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:01:04 . Memory (MB): peak = 734.938 ; gain = 382.176
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+50 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:01:30 . Memory (MB): peak = 747.457 ; gain = 409.000
+INFO: [Common 17-1381] The checkpoint 'H:/ese465/vivado/Microblaze/Microblaze.runs/synth_1/microblaze_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 747.457 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 17 10:58:07 2017...

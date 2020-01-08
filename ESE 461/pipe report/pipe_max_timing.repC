@@ -1,0 +1,868 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 20
+Design : pipe
+Version: J-2014.09-SP5
+Date   : Fri Nov 23 14:57:29 2018
+****************************************
+
+Operating Conditions: nom_pvt   Library: vtvt_tsmc180
+Wire Load Model Mode: top
+
+  Startpoint: counterQ_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[3]/ck (drp_1)               0.00       0.00 r
+  counterQ_reg[3]/q (drp_1)              242.56     242.56 f
+  U1066/op (nor2_1)                       99.68     342.24 r
+  U899/op (nand2_1)                       90.26     432.50 f
+  U898/op (nor2_2)                        94.27     526.76 r
+  U1068/op (and2_4)                      173.95     700.71 r
+  U1097/op (or3_4)                       110.81     811.52 r
+  U1098/op (inv_4)                        35.87     847.39 f
+  U1099/op (nor2_4)                       83.11     930.51 r
+  U1100/op (nor2_2)                       90.53    1021.04 f
+  U2181/op (nor2_1)                       89.16    1110.19 r
+  U2184/op (nand3_1)                     141.92    1252.12 f
+  U2226/op (inv_1)                        68.43    1320.54 r
+  U2228/op (or2_1)                        76.58    1397.12 r
+  U2232/op (nand2_1)                      65.35    1462.47 f
+  U2233/op (nand3_1)                      53.31    1515.78 r
+  partialQ_reg[10]/ip (dp_2)               0.00    1515.78 r
+  data arrival time                                1515.78
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[10]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -142.60     -42.60
+  data required time                                -42.60
+  -----------------------------------------------------------
+  data required time                                -42.60
+  data arrival time                               -1515.78
+  -----------------------------------------------------------
+  slack (MET)                                      1473.18
+
+
+  Startpoint: counterQ_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[15]/ck (dp_2)               0.00       0.00 r
+  counterQ_reg[15]/q (dp_2)              244.42     244.42 f
+  U1067/op (nor2_1)                       97.10     341.52 r
+  U899/op (nand2_1)                       90.55     432.07 f
+  U898/op (nor2_2)                        94.27     526.34 r
+  U1068/op (and2_4)                      173.95     700.28 r
+  U1097/op (or3_4)                       110.81     811.09 r
+  U1098/op (inv_4)                        35.87     846.97 f
+  U1099/op (nor2_4)                       83.11     930.08 r
+  U1100/op (nor2_2)                       90.53    1020.61 f
+  U2181/op (nor2_1)                       89.16    1109.77 r
+  U2184/op (nand3_1)                     141.92    1251.69 f
+  U2226/op (inv_1)                        68.43    1320.12 r
+  U2228/op (or2_1)                        76.58    1396.69 r
+  U2232/op (nand2_1)                      65.35    1462.04 f
+  U2233/op (nand3_1)                      53.31    1515.35 r
+  partialQ_reg[10]/ip (dp_2)               0.00    1515.35 r
+  data arrival time                                1515.35
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[10]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -142.60     -42.60
+  data required time                                -42.60
+  -----------------------------------------------------------
+  data required time                                -42.60
+  data arrival time                               -1515.35
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1557.95
+
+
+  Startpoint: counterQ_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[13]/ck (dp_2)               0.00       0.00 r
+  counterQ_reg[13]/q (dp_2)              244.87     244.87 f
+  U910/op (nor2_1)                        97.22     342.10 r
+  U1063/op (nand2_1)                      90.55     432.65 f
+  U1064/op (nor2_2)                       93.68     526.32 r
+  U1068/op (and2_4)                      173.87     700.20 r
+  U1097/op (or3_4)                       110.81     811.01 r
+  U1098/op (inv_4)                        35.87     846.88 f
+  U1099/op (nor2_4)                       83.11     929.99 r
+  U1100/op (nor2_2)                       90.53    1020.52 f
+  U2181/op (nor2_1)                       89.16    1109.68 r
+  U2184/op (nand3_1)                     141.92    1251.60 f
+  U2226/op (inv_1)                        68.43    1320.03 r
+  U2228/op (or2_1)                        76.58    1396.61 r
+  U2232/op (nand2_1)                      65.35    1461.95 f
+  U2233/op (nand3_1)                      53.31    1515.27 r
+  partialQ_reg[10]/ip (dp_2)               0.00    1515.27 r
+  data arrival time                                1515.27
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[10]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -142.60     -42.60
+  data required time                                -42.60
+  -----------------------------------------------------------
+  data required time                                -42.60
+  data arrival time                               -1515.27
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1557.86
+
+
+  Startpoint: counterQ_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[4]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[4]/q (dp_2)               244.87     244.87 f
+  U915/op (nor2_2)                        80.55     325.42 r
+  U900/op (nand2_1)                       87.29     412.71 f
+  U914/op (nor2_2)                       111.14     523.85 r
+  U752/op (nand2_1)                       73.43     597.28 f
+  U1075/op (inv_1)                        59.83     657.11 r
+  U1102/op (inv_1)                        82.33     739.44 f
+  U1103/op (nand2_1)                      52.53     791.96 r
+  U1104/op (inv_1)                        49.38     841.34 f
+  U1105/op (nand2_1)                      77.16     918.50 r
+  U1108/op (nand2_2)                     103.02    1021.52 f
+  U1109/op (nor2_2)                       96.99    1118.51 r
+  U741/op (nand3_2)                      135.75    1254.27 f
+  U1128/op (nand2_1)                      72.33    1326.60 r
+  U1151/op (or2_1)                        79.40    1406.00 r
+  U781/op (nand3_1)                       98.81    1504.81 f
+  partialQ_reg[9]/ip (dp_1)                0.00    1504.81 f
+  data arrival time                                1504.81
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[9]/ck (dp_1)                0.00     100.00 r
+  library setup time                    -151.94     -51.94
+  data required time                                -51.94
+  -----------------------------------------------------------
+  data required time                                -51.94
+  data arrival time                               -1504.81
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1556.75
+
+
+  Startpoint: mult/counterQ_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mult/storeQ_reg[22]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mult/counterQ_reg[1]/ck (dp_2)           0.00       0.00 r
+  mult/counterQ_reg[1]/q (dp_2)          261.65     261.65 f
+  U1164/op (buf_1)                       158.94     420.60 f
+  U1165/op (nand2_4)                      63.67     484.26 r
+  U1224/op (buf_1)                       165.74     650.00 r
+  U791/op (buf_4)                        104.21     754.22 r
+  U1923/op (or2_1)                        98.18     852.40 r
+  U1926/op (nand3_2)                     146.19     998.59 f
+  U1927/op (inv_2)                        68.42    1067.01 r
+  U964/op (mux2_1)                       132.02    1199.04 r
+  U1935/op (nor2_2)                       77.83    1276.87 f
+  U1936/op (nand2_1)                      51.54    1328.41 r
+  U1937/op (nand2_1)                      65.55    1393.96 f
+  U1951/op (nand2_1)                      51.84    1445.80 r
+  U1953/op (nand2_1)                      63.63    1509.43 f
+  mult/storeQ_reg[22]/ip (dp_1)            0.00    1509.43 f
+  data arrival time                                1509.43
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  mult/storeQ_reg[22]/ck (dp_1)            0.00     100.00 r
+  library setup time                    -147.01     -47.01
+  data required time                                -47.01
+  -----------------------------------------------------------
+  data required time                                -47.01
+  data arrival time                               -1509.43
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1556.44
+
+
+  Startpoint: counterQ_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[6]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[6]/q (dp_2)               251.74     251.74 f
+  U923/op (nor2_2)                       100.06     351.79 r
+  U921/op (nand2_2)                       86.66     438.45 f
+  U753/op (nor2_1)                        89.17     527.62 r
+  U752/op (nand2_1)                       69.09     596.71 f
+  U1075/op (inv_1)                        59.83     656.54 r
+  U1102/op (inv_1)                        82.33     738.87 f
+  U1103/op (nand2_1)                      52.53     791.40 r
+  U1104/op (inv_1)                        49.38     840.77 f
+  U1105/op (nand2_1)                      77.16     917.93 r
+  U1108/op (nand2_2)                     103.02    1020.96 f
+  U1109/op (nor2_2)                       96.99    1117.95 r
+  U741/op (nand3_2)                      135.75    1253.70 f
+  U1128/op (nand2_1)                      72.33    1326.03 r
+  U1151/op (or2_1)                        79.40    1405.43 r
+  U781/op (nand3_1)                       98.81    1504.24 f
+  partialQ_reg[9]/ip (dp_1)                0.00    1504.24 f
+  data arrival time                                1504.24
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[9]/ck (dp_1)                0.00     100.00 r
+  library setup time                    -151.94     -51.94
+  data required time                                -51.94
+  -----------------------------------------------------------
+  data required time                                -51.94
+  data arrival time                               -1504.24
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1556.19
+
+
+  Startpoint: counterQ_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[9]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[15]/ck (dp_2)               0.00       0.00 r
+  counterQ_reg[15]/q (dp_2)              244.42     244.42 f
+  U915/op (nor2_2)                        80.44     324.86 r
+  U900/op (nand2_1)                       87.29     412.14 f
+  U914/op (nor2_2)                       111.14     523.28 r
+  U752/op (nand2_1)                       73.43     596.71 f
+  U1075/op (inv_1)                        59.83     656.54 r
+  U1102/op (inv_1)                        82.33     738.87 f
+  U1103/op (nand2_1)                      52.53     791.40 r
+  U1104/op (inv_1)                        49.38     840.77 f
+  U1105/op (nand2_1)                      77.16     917.93 r
+  U1108/op (nand2_2)                     103.02    1020.96 f
+  U1109/op (nor2_2)                       96.99    1117.95 r
+  U741/op (nand3_2)                      135.75    1253.70 f
+  U1128/op (nand2_1)                      72.33    1326.03 r
+  U1151/op (or2_1)                        79.40    1405.43 r
+  U781/op (nand3_1)                       98.81    1504.24 f
+  partialQ_reg[9]/ip (dp_1)                0.00    1504.24 f
+  data arrival time                                1504.24
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[9]/ck (dp_1)                0.00     100.00 r
+  library setup time                    -151.94     -51.94
+  data required time                                -51.94
+  -----------------------------------------------------------
+  data required time                                -51.94
+  data arrival time                               -1504.24
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1556.19
+
+
+  Startpoint: mult/counterQ_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mult/storeQ_reg[16]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mult/counterQ_reg[1]/ck (dp_2)           0.00       0.00 r
+  mult/counterQ_reg[1]/q (dp_2)          261.65     261.65 f
+  U1164/op (buf_1)                       158.94     420.60 f
+  U1165/op (nand2_4)                      63.67     484.26 r
+  U1166/op (inv_2)                        70.87     555.14 f
+  U776/op (nand2_1)                       71.21     626.35 r
+  U1170/op (nand2_2)                      97.49     723.84 f
+  U755/op (nor2_2)                        91.31     815.15 r
+  U754/op (nor2_2)                        80.24     895.39 f
+  U1256/op (nand3_2)                      64.06     959.45 r
+  U1257/op (nand2_2)                      86.29    1045.74 f
+  U1046/op (and2_1)                      106.77    1152.51 f
+  U945/op (nand2_1)                       62.83    1215.34 r
+  U1047/op (or2_1)                        87.95    1303.28 r
+  U1537/op (nand2_1)                      61.16    1364.45 f
+  U1538/op (inv_1)                        40.89    1405.33 r
+  U1562/op (nand3_1)                      99.28    1504.61 f
+  mult/storeQ_reg[16]/ip (dp_1)            0.00    1504.61 f
+  data arrival time                                1504.61
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  mult/storeQ_reg[16]/ck (dp_1)            0.00     100.00 r
+  library setup time                    -151.42     -51.42
+  data required time                                -51.42
+  -----------------------------------------------------------
+  data required time                                -51.42
+  data arrival time                               -1504.61
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1556.03
+
+
+  Startpoint: counterQ_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[3]/ck (drp_1)               0.00       0.00 r
+  counterQ_reg[3]/q (drp_1)              242.56     242.56 f
+  U1066/op (nor2_1)                       99.68     342.24 r
+  U899/op (nand2_1)                       90.26     432.50 f
+  U898/op (nor2_2)                        94.27     526.76 r
+  U1068/op (and2_4)                      173.95     700.71 r
+  U1135/op (inv_1)                        73.47     774.18 f
+  U1136/op (nand2_1)                      69.01     843.19 r
+  U1498/op (nand2_1)                      67.02     910.21 f
+  U1499/op (nand2_1)                      66.23     976.44 r
+  U2190/op (or2_1)                        94.68    1071.11 r
+  U2191/op (nand2_1)                      66.72    1137.83 f
+  U2192/op (nand2_1)                      45.96    1183.79 r
+  U2193/op (nand2_1)                      66.05    1249.84 f
+  U2194/op (nand2_1)                      47.60    1297.45 r
+  U2196/op (nand2_1)                      65.63    1363.07 f
+  U2197/op (inv_1)                        40.98    1404.05 r
+  U2205/op (nand3_1)                      98.99    1503.04 f
+  partialQ_reg[13]/ip (dp_2)               0.00    1503.04 f
+  data arrival time                                1503.04
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[13]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.21     -52.21
+  data required time                                -52.21
+  -----------------------------------------------------------
+  data required time                                -52.21
+  data arrival time                               -1503.04
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1555.25
+
+
+  Startpoint: counterQ_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[3]/ck (drp_1)               0.00       0.00 r
+  counterQ_reg[3]/q (drp_1)              242.56     242.56 f
+  U1066/op (nor2_1)                       99.68     342.24 r
+  U899/op (nand2_1)                       90.26     432.50 f
+  U898/op (nor2_2)                        94.27     526.76 r
+  U1068/op (and2_4)                      173.95     700.71 r
+  U1097/op (or3_4)                       110.81     811.52 r
+  U1098/op (inv_4)                        35.87     847.39 f
+  U1099/op (nor2_4)                       83.11     930.51 r
+  U1100/op (nor2_2)                       90.53    1021.04 f
+  U2181/op (nor2_1)                       89.16    1110.19 r
+  U2184/op (nand3_1)                     141.92    1252.12 f
+  U2185/op (nand2_1)                      74.15    1326.27 r
+  U2186/op (or2_1)                        78.18    1404.45 r
+  U2205/op (nand3_1)                      98.44    1502.89 f
+  partialQ_reg[13]/ip (dp_2)               0.00    1502.89 f
+  data arrival time                                1502.89
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[13]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.21     -52.21
+  data required time                                -52.21
+  -----------------------------------------------------------
+  data required time                                -52.21
+  data arrival time                               -1502.89
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1555.10
+
+
+  Startpoint: counterQ_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[3]/ck (drp_1)               0.00       0.00 r
+  counterQ_reg[3]/q (drp_1)              242.56     242.56 f
+  U1066/op (nor2_1)                       99.68     342.24 r
+  U899/op (nand2_1)                       90.26     432.50 f
+  U898/op (nor2_2)                        94.27     526.76 r
+  U1068/op (and2_4)                      173.95     700.71 r
+  U1069/op (inv_2)                        60.29     761.00 f
+  U1070/op (nand2_1)                      84.57     845.56 r
+  U1129/op (nor2_1)                      107.87     953.43 f
+  U1130/op (inv_1)                        81.17    1034.60 r
+  U775/op (nand2_1)                       94.79    1129.39 f
+  U774/op (nand2_1)                       52.20    1181.58 r
+  U2051/op (nor2_1)                       76.87    1258.46 f
+  U2052/op (not_ab_or_c_or_d)            120.54    1379.00 r
+  U2058/op (nand3_1)                     121.11    1500.11 f
+  partialQ_reg[8]/ip (dp_2)                0.00    1500.11 f
+  data arrival time                                1500.11
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[8]/ck (dp_2)                0.00     100.00 r
+  library setup time                    -154.84     -54.84
+  data required time                                -54.84
+  -----------------------------------------------------------
+  data required time                                -54.84
+  data arrival time                               -1500.11
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.95
+
+
+  Startpoint: counterQ_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[13]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[4]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[4]/q (dp_2)               244.87     244.87 f
+  U915/op (nor2_2)                        80.55     325.42 r
+  U900/op (nand2_1)                       87.29     412.71 f
+  U914/op (nor2_2)                       111.14     523.85 r
+  U752/op (nand2_1)                       73.43     597.28 f
+  U1075/op (inv_1)                        59.83     657.11 r
+  U1102/op (inv_1)                        82.33     739.44 f
+  U1501/op (nand2_1)                      92.31     831.74 r
+  U742/op (nand2_2)                       79.50     911.24 f
+  U743/op (nand2_2)                       57.27     968.52 r
+  U2190/op (or2_1)                       102.23    1070.75 r
+  U2191/op (nand2_1)                      66.72    1137.47 f
+  U2192/op (nand2_1)                      45.96    1183.43 r
+  U2193/op (nand2_1)                      66.05    1249.48 f
+  U2194/op (nand2_1)                      47.60    1297.08 r
+  U2196/op (nand2_1)                      65.63    1362.71 f
+  U2197/op (inv_1)                        40.98    1403.69 r
+  U2205/op (nand3_1)                      98.99    1502.68 f
+  partialQ_reg[13]/ip (dp_2)               0.00    1502.68 f
+  data arrival time                                1502.68
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[13]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.21     -52.21
+  data required time                                -52.21
+  -----------------------------------------------------------
+  data required time                                -52.21
+  data arrival time                               -1502.68
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.89
+
+
+  Startpoint: counterQ_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[4]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[4]/q (dp_2)               244.87     244.87 f
+  U915/op (nor2_2)                        80.55     325.42 r
+  U900/op (nand2_1)                       87.29     412.71 f
+  U914/op (nor2_2)                       111.14     523.85 r
+  U752/op (nand2_1)                       73.43     597.28 f
+  U1075/op (inv_1)                        59.83     657.11 r
+  U1088/op (inv_1)                        68.68     725.79 f
+  U1089/op (nand2_1)                      82.67     808.45 r
+  U745/op (nand2_2)                       80.31     888.76 f
+  U746/op (nand2_2)                       58.51     947.26 r
+  U1092/op (nand2_1)                      92.77    1040.04 f
+  U1093/op (nand2_2)                      74.78    1114.81 r
+  U2047/op (buf_1)                        93.82    1208.64 r
+  U2048/op (inv_1)                        34.02    1242.66 f
+  U2052/op (not_ab_or_c_or_d)            135.97    1378.63 r
+  U2058/op (nand3_1)                     121.11    1499.74 f
+  partialQ_reg[8]/ip (dp_2)                0.00    1499.74 f
+  data arrival time                                1499.74
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[8]/ck (dp_2)                0.00     100.00 r
+  library setup time                    -154.84     -54.84
+  data required time                                -54.84
+  -----------------------------------------------------------
+  data required time                                -54.84
+  data arrival time                               -1499.74
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.57
+
+
+  Startpoint: counterQ_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[8]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[15]/ck (dp_2)               0.00       0.00 r
+  counterQ_reg[15]/q (dp_2)              244.42     244.42 f
+  U1067/op (nor2_1)                       97.10     341.52 r
+  U899/op (nand2_1)                       90.55     432.07 f
+  U898/op (nor2_2)                        94.27     526.34 r
+  U1068/op (and2_4)                      173.95     700.28 r
+  U1069/op (inv_2)                        60.29     760.57 f
+  U1070/op (nand2_1)                      84.57     845.14 r
+  U1129/op (nor2_1)                      107.87     953.00 f
+  U1130/op (inv_1)                        81.17    1034.17 r
+  U775/op (nand2_1)                       94.79    1128.96 f
+  U774/op (nand2_1)                       52.20    1181.16 r
+  U2051/op (nor2_1)                       76.87    1258.03 f
+  U2052/op (not_ab_or_c_or_d)            120.54    1378.57 r
+  U2058/op (nand3_1)                     121.11    1499.68 f
+  partialQ_reg[8]/ip (dp_2)                0.00    1499.68 f
+  data arrival time                                1499.68
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[8]/ck (dp_2)                0.00     100.00 r
+  library setup time                    -154.84     -54.84
+  data required time                                -54.84
+  -----------------------------------------------------------
+  data required time                                -54.84
+  data arrival time                               -1499.68
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.52
+
+
+  Startpoint: counterQ_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[4]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[4]/q (dp_2)               244.87     244.87 f
+  U915/op (nor2_2)                        80.55     325.42 r
+  U900/op (nand2_1)                       87.29     412.71 f
+  U914/op (nor2_2)                       111.14     523.85 r
+  U752/op (nand2_1)                       73.43     597.28 f
+  U1075/op (inv_1)                        59.83     657.11 r
+  U1102/op (inv_1)                        82.33     739.44 f
+  U1103/op (nand2_1)                      52.53     791.96 r
+  U1104/op (inv_1)                        49.38     841.34 f
+  U1105/op (nand2_1)                      77.16     918.50 r
+  U1108/op (nand2_2)                     103.02    1021.52 f
+  U1109/op (nor2_2)                       96.99    1118.51 r
+  U741/op (nand3_2)                      135.75    1254.27 f
+  U2280/op (nand2_1)                      72.33    1326.60 r
+  U2290/op (or2_1)                        77.28    1403.88 r
+  U2291/op (nand3_1)                      98.40    1502.29 f
+  partialQ_reg[14]/ip (dp_2)               0.00    1502.29 f
+  data arrival time                                1502.29
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[14]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.20     -52.20
+  data required time                                -52.20
+  -----------------------------------------------------------
+  data required time                                -52.20
+  data arrival time                               -1502.29
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.48
+
+
+  Startpoint: mult/counterQ_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mult/storeQ_reg[18]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mult/counterQ_reg[1]/ck (dp_2)           0.00       0.00 r
+  mult/counterQ_reg[1]/q (dp_2)          261.65     261.65 f
+  U1164/op (buf_1)                       158.94     420.60 f
+  U1165/op (nand2_4)                      63.67     484.26 r
+  U1224/op (buf_1)                       165.74     650.00 r
+  U791/op (buf_4)                        104.21     754.22 r
+  U1946/op (nor2_1)                       72.73     826.95 f
+  U852/op (nor2_1)                        87.92     914.86 r
+  U837/op (and2_1)                       167.10    1081.97 r
+  U1965/op (not_ab_or_c_or_d)            146.30    1228.27 f
+  U1966/op (nand2_1)                      63.08    1291.35 r
+  U1968/op (nand2_1)                      67.04    1358.39 f
+  U1969/op (inv_1)                        42.34    1400.73 r
+  U1970/op (nand2_1)                      61.23    1461.96 f
+  U1972/op (nand2_1)                      50.89    1512.84 r
+  mult/storeQ_reg[18]/ip (dp_1)            0.00    1512.84 r
+  data arrival time                                1512.84
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  mult/storeQ_reg[18]/ck (dp_1)            0.00     100.00 r
+  library setup time                    -141.61     -41.61
+  data required time                                -41.61
+  -----------------------------------------------------------
+  data required time                                -41.61
+  data arrival time                               -1512.84
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1554.45
+
+
+  Startpoint: counterQ_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[6]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[6]/q (dp_2)               251.74     251.74 f
+  U923/op (nor2_2)                       100.06     351.79 r
+  U921/op (nand2_2)                       86.66     438.45 f
+  U753/op (nor2_1)                        89.17     527.62 r
+  U752/op (nand2_1)                       69.09     596.71 f
+  U1075/op (inv_1)                        59.83     656.54 r
+  U1102/op (inv_1)                        82.33     738.87 f
+  U1103/op (nand2_1)                      52.53     791.40 r
+  U1104/op (inv_1)                        49.38     840.77 f
+  U1105/op (nand2_1)                      77.16     917.93 r
+  U1108/op (nand2_2)                     103.02    1020.96 f
+  U1109/op (nor2_2)                       96.99    1117.95 r
+  U741/op (nand3_2)                      135.75    1253.70 f
+  U2280/op (nand2_1)                      72.33    1326.03 r
+  U2290/op (or2_1)                        77.28    1403.32 r
+  U2291/op (nand3_1)                      98.40    1501.72 f
+  partialQ_reg[14]/ip (dp_2)               0.00    1501.72 f
+  data arrival time                                1501.72
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[14]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.20     -52.20
+  data required time                                -52.20
+  -----------------------------------------------------------
+  data required time                                -52.20
+  data arrival time                               -1501.72
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1553.92
+
+
+  Startpoint: counterQ_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[15]/ck (dp_2)               0.00       0.00 r
+  counterQ_reg[15]/q (dp_2)              244.42     244.42 f
+  U915/op (nor2_2)                        80.44     324.86 r
+  U900/op (nand2_1)                       87.29     412.14 f
+  U914/op (nor2_2)                       111.14     523.28 r
+  U752/op (nand2_1)                       73.43     596.71 f
+  U1075/op (inv_1)                        59.83     656.54 r
+  U1102/op (inv_1)                        82.33     738.87 f
+  U1103/op (nand2_1)                      52.53     791.40 r
+  U1104/op (inv_1)                        49.38     840.77 f
+  U1105/op (nand2_1)                      77.16     917.93 r
+  U1108/op (nand2_2)                     103.02    1020.96 f
+  U1109/op (nor2_2)                       96.99    1117.95 r
+  U741/op (nand3_2)                      135.75    1253.70 f
+  U2280/op (nand2_1)                      72.33    1326.03 r
+  U2290/op (or2_1)                        77.28    1403.31 r
+  U2291/op (nand3_1)                      98.40    1501.72 f
+  partialQ_reg[14]/ip (dp_2)               0.00    1501.72 f
+  data arrival time                                1501.72
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[14]/ck (dp_2)               0.00     100.00 r
+  library setup time                    -152.20     -52.20
+  data required time                                -52.20
+  -----------------------------------------------------------
+  data required time                                -52.20
+  data arrival time                               -1501.72
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1553.91
+
+
+  Startpoint: mult/counterQ_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: mult/storeQ_reg[16]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  mult/counterQ_reg[1]/ck (dp_2)           0.00       0.00 r
+  mult/counterQ_reg[1]/q (dp_2)          261.65     261.65 f
+  U1171/op (nand2_1)                      98.89     360.54 r
+  U905/op (inv_2)                         71.91     432.45 f
+  U971/op (nand2_1)                       57.11     489.56 r
+  U1172/op (nand2_1)                      65.16     554.73 f
+  U1173/op (inv_1)                        80.58     635.31 r
+  U1175/op (nand2_2)                      87.58     722.89 f
+  U755/op (nor2_2)                        88.33     811.23 r
+  U754/op (nor2_2)                        80.24     891.46 f
+  U1256/op (nand3_2)                      64.06     955.53 r
+  U1257/op (nand2_2)                      86.29    1041.82 f
+  U1046/op (and2_1)                      106.77    1148.59 f
+  U945/op (nand2_1)                       62.83    1211.41 r
+  U1047/op (or2_1)                        87.95    1299.36 r
+  U1537/op (nand2_1)                      61.16    1360.52 f
+  U1538/op (inv_1)                        40.89    1401.41 r
+  U1562/op (nand3_1)                      99.28    1500.69 f
+  mult/storeQ_reg[16]/ip (dp_1)            0.00    1500.69 f
+  data arrival time                                1500.69
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  mult/storeQ_reg[16]/ck (dp_1)            0.00     100.00 r
+  library setup time                    -151.42     -51.42
+  data required time                                -51.42
+  -----------------------------------------------------------
+  data required time                                -51.42
+  data arrival time                               -1500.69
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1552.11
+
+
+  Startpoint: counterQ_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: partialQ_reg[12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counterQ_reg[4]/ck (dp_2)                0.00       0.00 r
+  counterQ_reg[4]/q (dp_2)               244.87     244.87 f
+  U915/op (nor2_2)                        80.55     325.42 r
+  U900/op (nand2_1)                       87.29     412.71 f
+  U914/op (nor2_2)                       111.14     523.85 r
+  U752/op (nand2_1)                       73.43     597.28 f
+  U1075/op (inv_1)                        59.83     657.11 r
+  U1102/op (inv_1)                        82.33     739.44 f
+  U1103/op (nand2_1)                      52.53     791.96 r
+  U1104/op (inv_1)                        49.38     841.34 f
+  U1105/op (nand2_1)                      77.16     918.50 r
+  U1108/op (nand2_2)                     103.02    1021.52 f
+  U2050/op (nor2_2)                      113.40    1134.93 r
+  U786/op (nand3_1)                      117.02    1251.95 f
+  U785/op (nand2_1)                       68.77    1320.72 r
+  U2216/op (or2_1)                        79.47    1400.19 r
+  U2217/op (nand3_1)                      99.39    1499.58 f
+  partialQ_reg[12]/ip (dp_1)               0.00    1499.58 f
+  data arrival time                                1499.58
+
+  clock clk (rise edge)                  100.00     100.00
+  clock network delay (ideal)              0.00     100.00
+  partialQ_reg[12]/ck (dp_1)               0.00     100.00 r
+  library setup time                    -151.91     -51.91
+  data required time                                -51.91
+  -----------------------------------------------------------
+  data required time                                -51.91
+  data arrival time                               -1499.58
+  -----------------------------------------------------------
+  slack (VIOLATED)                                -1551.49
+
+
+1

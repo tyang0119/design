@@ -1,0 +1,16 @@
+moduel problem1();
+
+reg a,b,c,d;
+wire out_0,out_1,y;
+
+
+xor U1(out_0,a,b);
+xor U2(out_1,c,d);
+xor U3(y,out_0,out_1);
+
+initial begin
+
+
+
+end
+endmodule

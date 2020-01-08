@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : pipe
+Version: J-2014.09-SP5
+Date   : Fri Nov 23 14:57:29 2018
+****************************************
+
+
+Library(s) Used:
+
+    vtvt_tsmc180 (File: /project/linuxlab/cadence/vendors/VTVT/vtvt_tsmc180/Synopsys_Libraries/libs/vtvt_tsmc180.db)
+
+
+Operating Conditions: nom_pvt   Library: vtvt_tsmc180
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+  Cell Internal Power  = 151.1729 mW   (70%)
+  Net Switching Power  =  64.3765 mW   (30%)
+                         ---------
+Total Dynamic Power    = 215.5494 mW  (100%)
+
+Cell Leakage Power     = 398.9917 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      1.4287           50.8806        2.6733e-06           52.3093  (  24.27%)
+register         140.7978            1.3192        3.3043e-04          142.1174  (  65.93%)
+sequential     5.6573e-03        4.7234e-03        3.1118e-05        1.0412e-02  (   0.00%)
+combinational      8.9408           12.1720        3.4771e-05           21.1129  (   9.79%)
+--------------------------------------------------------------------------------------------------
+Total            151.1729 mW        64.3765 mW     3.9899e-04 mW       215.5499 mW
+1

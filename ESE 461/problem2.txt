@@ -1,0 +1,18 @@
+moduel problem2();
+
+reg a,b,c_in;
+wire w_0,w_1,w_2,s,c_out;
+
+
+xor U1(w_0,a,b);
+xor U2(s,w_0,c_in);
+and U3(w_1,w_0,c_in);
+and U4(w_2,a,b);
+or U5(c_out,w_1,w_2);
+
+initial begin
+
+
+
+end
+endmodule

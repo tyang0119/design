@@ -1,0 +1,949 @@
+Warning: Worst timing paths might not be returned. (TIM-104)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 1000000
+Design : ramB
+Version: J-2014.09-SP5
+Date   : Fri Nov 23 16:41:31 2018
+****************************************
+
+Operating Conditions: nom_pvt   Library: vtvt_tsmc180
+Wire Load Model Mode: top
+
+  Startpoint: ram_reg[9][15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][15]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][15]/q (dp_1)                124.51     124.51 r
+  U1500/op (inv_1)                        37.85     162.36 f
+  U1501/op (inv_1)                        40.05     202.41 r
+  U1502/op (nand2_1)                      61.80     264.21 f
+  U1506/op (nand3_1)                     202.77     466.97 r
+  do[15] (out)                             0.00     466.97 r
+  data arrival time                                 466.97
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][14]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][14]/q (dp_1)                124.51     124.51 r
+  U1065/op (inv_1)                        37.85     162.36 f
+  U1066/op (inv_1)                        40.05     202.41 r
+  U1067/op (nand2_1)                      61.80     264.21 f
+  U1071/op (nand3_1)                     202.77     466.97 r
+  do[14] (out)                             0.00     466.97 r
+  data arrival time                                 466.97
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][13]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][13]/q (dp_1)                126.05     126.05 r
+  U1100/op (inv_1)                        38.08     164.12 f
+  U1101/op (inv_1)                        40.12     204.24 r
+  U1102/op (nand2_1)                      61.82     266.06 f
+  U1106/op (nand3_1)                     202.77     468.83 r
+  do[13] (out)                             0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][12]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][12]/q (dp_1)                126.05     126.05 r
+  U1135/op (inv_1)                        38.08     164.12 f
+  U1136/op (inv_1)                        40.12     204.24 r
+  U1137/op (nand2_1)                      61.82     266.06 f
+  U1141/op (nand3_1)                     202.77     468.83 r
+  do[12] (out)                             0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][11]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][11]/q (dp_1)                126.05     126.05 r
+  U1170/op (inv_1)                        38.08     164.12 f
+  U1171/op (inv_1)                        40.12     204.24 r
+  U1172/op (nand2_1)                      61.82     266.06 f
+  U1176/op (nand3_1)                     202.77     468.83 r
+  do[11] (out)                             0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][10]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[9][10]/q (dp_1)                126.05     126.05 r
+  U1205/op (inv_1)                        38.08     164.12 f
+  U1206/op (inv_1)                        40.12     204.24 r
+  U1207/op (nand2_1)                      61.82     266.06 f
+  U1211/op (nand3_1)                     202.77     468.83 r
+  do[10] (out)                             0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][9]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][9]/q (dp_1)                 126.05     126.05 r
+  U1240/op (inv_1)                        38.08     164.12 f
+  U1241/op (inv_1)                        40.12     204.24 r
+  U1242/op (nand2_1)                      61.82     266.06 f
+  U1246/op (nand3_1)                     202.77     468.83 r
+  do[9] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][8]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][8]/q (dp_1)                 126.05     126.05 r
+  U995/op (inv_1)                         38.08     164.12 f
+  U996/op (inv_1)                         40.12     204.24 r
+  U997/op (nand2_1)                       61.82     266.06 f
+  U1001/op (nand3_1)                     202.77     468.83 r
+  do[8] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][7]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][7]/q (dp_1)                 126.05     126.05 r
+  U1030/op (inv_1)                        38.08     164.12 f
+  U1031/op (inv_1)                        40.12     204.24 r
+  U1032/op (nand2_1)                      61.82     266.06 f
+  U1036/op (nand3_1)                     202.77     468.83 r
+  do[7] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][6]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][6]/q (dp_1)                 126.05     126.05 r
+  U1329/op (inv_1)                        38.08     164.12 f
+  U1330/op (inv_1)                        40.12     204.24 r
+  U1331/op (nand2_1)                      61.82     266.06 f
+  U1335/op (nand3_1)                     202.77     468.83 r
+  do[6] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][5]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][5]/q (dp_1)                 126.05     126.05 r
+  U1275/op (inv_1)                        38.08     164.12 f
+  U1276/op (inv_1)                        40.12     204.24 r
+  U1277/op (nand2_1)                      61.82     266.06 f
+  U1281/op (nand3_1)                     202.77     468.83 r
+  do[5] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][4]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][4]/q (dp_1)                 126.05     126.05 r
+  U1397/op (inv_1)                        38.08     164.12 f
+  U1398/op (inv_1)                        40.12     204.24 r
+  U1399/op (nand2_1)                      61.82     266.06 f
+  U1403/op (nand3_1)                     202.77     468.83 r
+  do[4] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][3]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][3]/q (dp_1)                 126.05     126.05 r
+  U1431/op (inv_1)                        38.08     164.12 f
+  U1432/op (inv_1)                        40.12     204.24 r
+  U1433/op (nand2_1)                      61.82     266.06 f
+  U1437/op (nand3_1)                     202.77     468.83 r
+  do[3] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][2]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][2]/q (dp_1)                 126.05     126.05 r
+  U1363/op (inv_1)                        38.08     164.12 f
+  U1364/op (inv_1)                        40.12     204.24 r
+  U1365/op (nand2_1)                      61.82     266.06 f
+  U1369/op (nand3_1)                     202.77     468.83 r
+  do[2] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][1]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][1]/q (dp_1)                 126.05     126.05 r
+  U1465/op (inv_1)                        38.08     164.12 f
+  U1466/op (inv_1)                        40.12     204.24 r
+  U1467/op (nand2_1)                      61.82     266.06 f
+  U1471/op (nand3_1)                     202.77     468.83 r
+  do[1] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][0]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][0]/q (dp_1)                 126.05     126.05 r
+  U1294/op (inv_1)                        38.08     164.12 f
+  U1295/op (inv_1)                        40.12     204.24 r
+  U1296/op (nand2_1)                      61.82     266.06 f
+  U1300/op (nand3_1)                     202.77     468.83 r
+  do[0] (out)                              0.00     468.83 r
+  data arrival time                                 468.83
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][15]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][15]/q (dp_1)                126.05     126.05 r
+  U1503/op (inv_1)                        38.08     164.12 f
+  U1504/op (inv_1)                        40.12     204.24 r
+  U1505/op (nand2_1)                      65.41     269.66 f
+  U1506/op (nand3_1)                     200.80     470.45 r
+  do[15] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][14]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][14]/q (dp_1)                126.05     126.05 r
+  U1068/op (inv_1)                        38.08     164.12 f
+  U1069/op (inv_1)                        40.12     204.24 r
+  U1070/op (nand2_1)                      65.41     269.66 f
+  U1071/op (nand3_1)                     200.80     470.45 r
+  do[14] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][13]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][13]/q (dp_1)                126.05     126.05 r
+  U1103/op (inv_1)                        38.08     164.12 f
+  U1104/op (inv_1)                        40.12     204.24 r
+  U1105/op (nand2_1)                      65.41     269.66 f
+  U1106/op (nand3_1)                     200.80     470.45 r
+  do[13] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][12]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][12]/q (dp_1)                126.05     126.05 r
+  U1138/op (inv_1)                        38.08     164.12 f
+  U1139/op (inv_1)                        40.12     204.24 r
+  U1140/op (nand2_1)                      65.41     269.66 f
+  U1141/op (nand3_1)                     200.80     470.45 r
+  do[12] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][11]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][11]/q (dp_1)                126.05     126.05 r
+  U1173/op (inv_1)                        38.08     164.12 f
+  U1174/op (inv_1)                        40.12     204.24 r
+  U1175/op (nand2_1)                      65.41     269.66 f
+  U1176/op (nand3_1)                     200.80     470.45 r
+  do[11] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][10]/ck (dp_1)                 0.00       0.00 r
+  ram_reg[8][10]/q (dp_1)                126.05     126.05 r
+  U1208/op (inv_1)                        38.08     164.12 f
+  U1209/op (inv_1)                        40.12     204.24 r
+  U1210/op (nand2_1)                      65.41     269.66 f
+  U1211/op (nand3_1)                     200.80     470.45 r
+  do[10] (out)                             0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][9]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][9]/q (dp_1)                 126.05     126.05 r
+  U1243/op (inv_1)                        38.08     164.12 f
+  U1244/op (inv_1)                        40.12     204.24 r
+  U1245/op (nand2_1)                      65.41     269.66 f
+  U1246/op (nand3_1)                     200.80     470.45 r
+  do[9] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][8]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][8]/q (dp_1)                 126.05     126.05 r
+  U998/op (inv_1)                         38.08     164.12 f
+  U999/op (inv_1)                         40.12     204.24 r
+  U1000/op (nand2_1)                      65.41     269.66 f
+  U1001/op (nand3_1)                     200.80     470.45 r
+  do[8] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][7]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][7]/q (dp_1)                 126.05     126.05 r
+  U1033/op (inv_1)                        38.08     164.12 f
+  U1034/op (inv_1)                        40.12     204.24 r
+  U1035/op (nand2_1)                      65.41     269.66 f
+  U1036/op (nand3_1)                     200.80     470.45 r
+  do[7] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][6]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][6]/q (dp_1)                 126.05     126.05 r
+  U1332/op (inv_1)                        38.08     164.12 f
+  U1333/op (inv_1)                        40.12     204.24 r
+  U1334/op (nand2_1)                      65.41     269.66 f
+  U1335/op (nand3_1)                     200.80     470.45 r
+  do[6] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][5]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][5]/q (dp_1)                 126.05     126.05 r
+  U1278/op (inv_1)                        38.08     164.12 f
+  U1279/op (inv_1)                        40.12     204.24 r
+  U1280/op (nand2_1)                      65.41     269.66 f
+  U1281/op (nand3_1)                     200.80     470.45 r
+  do[5] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][4]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][4]/q (dp_1)                 126.05     126.05 r
+  U1400/op (inv_1)                        38.08     164.12 f
+  U1401/op (inv_1)                        40.12     204.24 r
+  U1402/op (nand2_1)                      65.41     269.66 f
+  U1403/op (nand3_1)                     200.80     470.45 r
+  do[4] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][3]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][3]/q (dp_1)                 126.05     126.05 r
+  U1434/op (inv_1)                        38.08     164.12 f
+  U1435/op (inv_1)                        40.12     204.24 r
+  U1436/op (nand2_1)                      65.41     269.66 f
+  U1437/op (nand3_1)                     200.80     470.45 r
+  do[3] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][2]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][2]/q (dp_1)                 126.05     126.05 r
+  U1366/op (inv_1)                        38.08     164.12 f
+  U1367/op (inv_1)                        40.12     204.24 r
+  U1368/op (nand2_1)                      65.41     269.66 f
+  U1369/op (nand3_1)                     200.80     470.45 r
+  do[2] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[8][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[8][1]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[8][1]/q (dp_1)                 126.05     126.05 r
+  U1468/op (inv_1)                        38.08     164.12 f
+  U1469/op (inv_1)                        40.12     204.24 r
+  U1470/op (nand2_1)                      65.41     269.66 f
+  U1471/op (nand3_1)                     200.80     470.45 r
+  do[1] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[9][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[9][0]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[9][0]/q (dp_1)                 126.05     126.05 r
+  U1297/op (inv_1)                        38.08     164.12 f
+  U1298/op (inv_1)                        40.12     204.24 r
+  U1299/op (nand2_1)                      65.41     269.66 f
+  U1300/op (nand3_1)                     200.80     470.45 r
+  do[0] (out)                              0.00     470.45 r
+  data arrival time                                 470.45
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: ram_reg[1][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: do[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  ram_reg[1][0]/ck (dp_1)                  0.00       0.00 r
+  ram_reg[1][0]/q (dp_1)                 125.71     125.71 r
+  U1285/op (nand2_1)                      72.71     198.42 f
+  U1286/op (nand4_1)                      56.05     254.48 r
+  U1292/op (or2_1)                        75.00     329.47 r
+  U1293/op (nand2_1)                      60.91     390.39 f
+  U1300/op (nand3_1)                     206.34     596.73 r
+  do[0] (out)                              0.00     596.73 r
+  data arrival time                                 596.73
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1499/op (nand2_1)                     116.04     440.05 f
+  U1506/op (nand3_1)                     206.34     646.39 r
+  do[15] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1064/op (nand2_1)                     116.04     440.05 f
+  U1071/op (nand3_1)                     206.34     646.39 r
+  do[14] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1099/op (nand2_1)                     116.04     440.05 f
+  U1106/op (nand3_1)                     206.34     646.39 r
+  do[13] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1134/op (nand2_1)                     116.04     440.05 f
+  U1141/op (nand3_1)                     206.34     646.39 r
+  do[12] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1169/op (nand2_1)                     116.04     440.05 f
+  U1176/op (nand3_1)                     206.34     646.39 r
+  do[11] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1204/op (nand2_1)                     116.04     440.05 f
+  U1211/op (nand3_1)                     206.34     646.39 r
+  do[10] (out)                             0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1239/op (nand2_1)                     116.04     440.05 f
+  U1246/op (nand3_1)                     206.34     646.39 r
+  do[9] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U994/op (nand2_1)                      116.04     440.05 f
+  U1001/op (nand3_1)                     206.34     646.39 r
+  do[8] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1029/op (nand2_1)                     116.04     440.05 f
+  U1036/op (nand3_1)                     206.34     646.39 r
+  do[7] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1328/op (nand2_1)                     116.04     440.05 f
+  U1335/op (nand3_1)                     206.34     646.39 r
+  do[6] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1274/op (nand2_1)                     116.04     440.05 f
+  U1281/op (nand3_1)                     206.34     646.39 r
+  do[5] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1396/op (nand2_1)                     116.04     440.05 f
+  U1403/op (nand3_1)                     206.34     646.39 r
+  do[4] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1430/op (nand2_1)                     116.04     440.05 f
+  U1437/op (nand3_1)                     206.34     646.39 r
+  do[3] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1362/op (nand2_1)                     116.04     440.05 f
+  U1369/op (nand3_1)                     206.34     646.39 r
+  do[2] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: a[3] (input port)
+  Endpoint: do[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  a[3] (in)                               37.04      37.04 f
+  U960/op (inv_1)                        286.97     324.01 r
+  U1464/op (nand2_1)                     116.04     440.05 f
+  U1471/op (nand3_1)                     206.34     646.39 r
+  do[1] (out)                              0.00     646.39 r
+  data arrival time                                 646.39
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

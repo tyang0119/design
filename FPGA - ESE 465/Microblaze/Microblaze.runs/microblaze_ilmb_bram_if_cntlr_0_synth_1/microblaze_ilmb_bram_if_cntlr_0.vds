@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Sep 17 10:52:52 2017
+# Process ID: 15384
+# Current directory: H:/ese465/vivado/Microblaze/Microblaze.runs/microblaze_ilmb_bram_if_cntlr_0_synth_1
+# Command line: vivado.exe -log microblaze_ilmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source microblaze_ilmb_bram_if_cntlr_0.tcl
+# Log file: H:/ese465/vivado/Microblaze/Microblaze.runs/microblaze_ilmb_bram_if_cntlr_0_synth_1/microblaze_ilmb_bram_if_cntlr_0.vds
+# Journal file: H:/ese465/vivado/Microblaze/Microblaze.runs/microblaze_ilmb_bram_if_cntlr_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source microblaze_ilmb_bram_if_cntlr_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 391.340 ; gain = 82.293
+INFO: [Synth 8-638] synthesizing module 'microblaze_ilmb_bram_if_cntlr_0' [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ip/microblaze_ilmb_bram_if_cntlr_0/synth/microblaze_ilmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (1#1) [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (2#1) [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (3#1) [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ipshared/51e1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-256] done synthesizing module 'microblaze_ilmb_bram_if_cntlr_0' (4#1) [h:/ese465/vivado/Microblaze/Microblaze.srcs/sources_1/bd/microblaze/ip/microblaze_ilmb_bram_if_cntlr_0/synth/microblaze_ilmb_bram_if_cntlr_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 432.422 ; gain = 123.375
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 432.422 ; gain = 123.375
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 714.152 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 714.152 ; gain = 405.105
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     6|
+|3     |FDRE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 716.949 ; gain = 407.902
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 721.359 ; gain = 413.941
