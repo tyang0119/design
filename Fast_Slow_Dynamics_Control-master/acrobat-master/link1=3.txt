@@ -1,0 +1,798 @@
+Run: 1, exploration: 0.5185893309484582, score: -1486.9738388643927
+median reward = -1486.9738388643927
+Run: 2, exploration: 0.24450384299593592, score: -1474.331897335151
+median reward = -1480.652868099772
+Run: 3, exploration: 0.11527836319047392, score: -1453.4038114916016
+median reward = -1474.331897335151
+Run: 4, exploration: 0.1, score: -1497.6931284443058
+median reward = -1480.652868099772
+Run: 5, exploration: 0.1, score: -1493.094417575836
+median reward = -1486.9738388643927
+Run: 6, exploration: 0.1, score: -1504.211567357479
+median reward = -1490.0341282201143
+Run: 7, exploration: 0.1, score: -1500.918549628356
+median reward = -1493.094417575836
+Run: 8, exploration: 0.1, score: -1494.6657637914616
+median reward = -1493.8800906836486
+Run: 9, exploration: 0.1, score: -1502.6984638833703
+median reward = -1494.6657637914616
+Run: 10, exploration: 0.1, score: -1502.8932290027935
+median reward = -1496.1794461178838
+Run: 11, exploration: 0.1, score: -1484.5576071912376
+median reward = -1494.6657637914616
+Run: 12, exploration: 0.1, score: -1498.3555747716537
+median reward = -1496.1794461178838
+Run: 13, exploration: 0.1, score: -1504.250659166546
+median reward = -1497.6931284443058
+Run: 14, exploration: 0.1, score: -1501.964656973849
+median reward = -1498.0243516079797
+Run: 15, exploration: 0.1, score: -1475.7714788523137
+median reward = -1497.6931284443058
+Run: 16, exploration: 0.1, score: -1495.5948799949304
+median reward = -1496.6440042196182
+Run: 17, exploration: 0.1, score: -1507.7219306600832
+median reward = -1497.6931284443058
+Run: 18, exploration: 0.1, score: -1498.8978844767225
+median reward = -1498.0243516079797
+Run: 19, exploration: 0.1, score: -1505.5718839375543
+median reward = -1498.3555747716537
+Run: 20, exploration: 0.1, score: -1503.8068589536579
+median reward = -1498.626729624188
+Run: 21, exploration: 0.1, score: -1507.0987538931317
+median reward = -1498.8978844767225
+Run: 22, exploration: 0.1, score: -1486.5459812699883
+median reward = -1498.626729624188
+Run: 23, exploration: 0.1, score: -1429.7955696937238
+median reward = -1498.3555747716537
+Run: 24, exploration: 0.1, score: -1499.386520143558
+median reward = -1498.626729624188
+Run: 25, exploration: 0.1, score: -1485.836953313311
+median reward = -1498.3555747716537
+Run: 26, exploration: 0.1, score: -1506.3534553041954
+median reward = -1498.626729624188
+Run: 27, exploration: 0.1, score: -1501.3051420037054
+median reward = -1498.8978844767225
+Run: 28, exploration: 0.1, score: -1501.6592737481317
+median reward = -1499.1422023101404
+Run: 29, exploration: 0.1, score: -1502.794907192493
+median reward = -1499.386520143558
+Run: 30, exploration: 0.1, score: -1503.696962082928
+median reward = -1500.152534885957
+Run: 31, exploration: 0.1, score: -1500.0777831718724
+median reward = -1500.0777831718724
+Run: 32, exploration: 0.1, score: -1504.5581397873514
+median reward = -1500.4981664001143
+Run: 33, exploration: 0.1, score: -1508.4691382340961
+median reward = -1500.918549628356
+Run: 34, exploration: 0.1, score: -1503.4565284518278
+median reward = -1501.1118458160308
+Run: 35, exploration: 0.1, score: -1492.9563565353733
+median reward = -1500.918549628356
+Run: 36, exploration: 0.1, score: -1504.9900489640852
+median reward = -1501.1118458160308
+Run: 37, exploration: 0.1, score: -1502.4323308661885
+median reward = -1501.3051420037054
+Run: 38, exploration: 0.1, score: -1484.2665578815718
+median reward = -1501.1118458160308
+Run: 39, exploration: 0.1, score: -1497.8870512555275
+median reward = -1500.918549628356
+Run: 40, exploration: 0.1, score: -1500.5673498776405
+median reward = -1500.7429497529984
+Run: 41, exploration: 0.1, score: -1478.0969890575618
+median reward = -1500.5673498776405
+Run: 42, exploration: 0.1, score: -1506.2450397783664
+median reward = -1500.7429497529984
+Run: 43, exploration: 0.1, score: -1504.7907904054384
+median reward = -1500.918549628356
+Run: 44, exploration: 0.1, score: -1479.1862760838133
+median reward = -1500.7429497529984
+Run: 45, exploration: 0.1, score: -1502.8247886744864
+median reward = -1500.918549628356
+Run: 46, exploration: 0.1, score: -1503.6071662312868
+median reward = -1501.1118458160308
+Run: 47, exploration: 0.1, score: -1508.1245076126404
+median reward = -1501.3051420037054
+Run: 48, exploration: 0.1, score: -1497.1625162735797
+median reward = -1501.1118458160308
+Run: 49, exploration: 0.1, score: -1506.2343668397375
+median reward = -1501.3051420037054
+Run: 50, exploration: 0.1, score: -1506.2221242703993
+median reward = -1501.4822078759184
+Run: 51, exploration: 0.1, score: -1500.812489641931
+median reward = -1501.3051420037054
+Run: 52, exploration: 0.1, score: -1489.1738192835633
+median reward = -1501.1118458160308
+Run: 53, exploration: 0.1, score: -1501.965180381438
+How many rewards > 0 = 0
+Run: 54, exploration: 0.1, score: -1497.8212710404623
+How many rewards > 0 = 0
+Run: 55, exploration: 0.1, score: -1503.866635161558
+How many rewards > 0 = 0
+Run: 56, exploration: 0.1, score: -1503.3703283072336
+How many rewards > 0 = 0
+Run: 57, exploration: 0.1, score: -1492.0536147233156
+How many rewards > 0 = 0
+Run: 58, exploration: 0.1, score: -1506.1169888754246
+How many rewards > 0 = 0
+Run: 59, exploration: 0.1, score: -1502.2275452793674
+How many rewards > 0 = 0
+Run: 60, exploration: 0.1, score: -1507.8256833811126
+How many rewards > 0 = 0
+Run: 61, exploration: 0.1, score: -1499.2305853003686
+How many rewards > 0 = 0
+Run: 62, exploration: 0.1, score: -1508.0410216330652
+How many rewards > 0 = 0
+Run: 63, exploration: 0.1, score: -1504.8194849857289
+How many rewards > 0 = 0
+Run: 64, exploration: 0.1, score: -1408.99971536689
+How many rewards > 0 = 0
+Run: 65, exploration: 0.1, score: -1497.8382667169174
+How many rewards > 0 = 0
+Run: 66, exploration: 0.1, score: -1500.0712297127172
+How many rewards > 0 = 0
+Run: 67, exploration: 0.1, score: -1488.278070800231
+How many rewards > 0 = 0
+Run: 68, exploration: 0.1, score: -1475.5107067883255
+How many rewards > 0 = 0
+Run: 69, exploration: 0.1, score: -1492.347771179574
+How many rewards > 0 = 0
+Run: 70, exploration: 0.1, score: -1501.1999679712035
+How many rewards > 0 = 0
+Run: 71, exploration: 0.1, score: -1501.7784547211322
+How many rewards > 0 = 0
+Run: 72, exploration: 0.1, score: -1483.1372232855551
+How many rewards > 0 = 0
+Run: 73, exploration: 0.1, score: -1504.1497187338061
+How many rewards > 0 = 0
+Run: 74, exploration: 0.1, score: -1497.8186650454265
+How many rewards > 0 = 0
+Run: 75, exploration: 0.1, score: -1508.3252012702808
+How many rewards > 0 = 0
+Run: 76, exploration: 0.1, score: -1506.3354433894435
+How many rewards > 0 = 0
+Run: 77, exploration: 0.1, score: -1504.2529352335484
+How many rewards > 0 = 0
+Run: 78, exploration: 0.1, score: -1506.6318335427727
+How many rewards > 0 = 0
+Run: 79, exploration: 0.1, score: -1501.5060977582561
+How many rewards > 0 = 0
+Run: 80, exploration: 0.1, score: -1506.9067633217487
+How many rewards > 0 = 0
+Run: 81, exploration: 0.1, score: -1500.7219127197525
+How many rewards > 0 = 0
+Run: 82, exploration: 0.1, score: -1497.1451829282153
+How many rewards > 0 = 0
+Run: 83, exploration: 0.1, score: -1491.037900229968
+How many rewards > 0 = 0
+Run: 84, exploration: 0.1, score: -1494.338893849025
+How many rewards > 0 = 0
+Run: 85, exploration: 0.1, score: -1507.4136717087742
+How many rewards > 0 = 0
+Run: 86, exploration: 0.1, score: -1499.0259345045793
+How many rewards > 0 = 0
+Run: 87, exploration: 0.1, score: -1495.370935497869
+How many rewards > 0 = 0
+Run: 88, exploration: 0.1, score: -1501.2147518378351
+How many rewards > 0 = 0
+Run: 89, exploration: 0.1, score: -1505.7127190086906
+How many rewards > 0 = 0
+Run: 90, exploration: 0.1, score: -1493.3346499189208
+How many rewards > 0 = 0
+Run: 91, exploration: 0.1, score: -1490.332271829859
+How many rewards > 0 = 0
+Run: 92, exploration: 0.1, score: -1492.3575820897313
+How many rewards > 0 = 0
+Run: 93, exploration: 0.1, score: -1492.236373028221
+How many rewards > 0 = 0
+Run: 94, exploration: 0.1, score: -1509.1615582243778
+How many rewards > 0 = 0
+Run: 95, exploration: 0.1, score: -1506.8559913391882
+How many rewards > 0 = 0
+Run: 96, exploration: 0.1, score: -1507.4765473554276
+How many rewards > 0 = 0
+Run: 97, exploration: 0.1, score: -1501.6216054419222
+How many rewards > 0 = 0
+Run: 98, exploration: 0.1, score: -1494.954840145278
+How many rewards > 0 = 0
+Run: 99, exploration: 0.1, score: -1456.8122245334364
+How many rewards > 0 = 0
+Run: 100, exploration: 0.1, score: -1502.577021388436
+How many rewards > 0 = 0
+Run: 101, exploration: 0.1, score: -1485.4961779152268
+How many rewards > 0 = 0
+Run: 102, exploration: 0.1, score: -1455.0830811092671
+How many rewards > 0 = 0
+Run: 103, exploration: 0.1, score: -1483.2470142204913
+How many rewards > 0 = 0
+Run: 104, exploration: 0.1, score: -1475.900359602347
+How many rewards > 0 = 0
+Run: 105, exploration: 0.1, score: -1499.7433531548168
+How many rewards > 0 = 0
+Run: 106, exploration: 0.1, score: -1504.5044536490548
+How many rewards > 0 = 0
+Run: 107, exploration: 0.1, score: -1505.1502072112758
+How many rewards > 0 = 0
+Run: 108, exploration: 0.1, score: -1478.8486336546543
+How many rewards > 0 = 0
+Run: 109, exploration: 0.1, score: -1467.986392499692
+How many rewards > 0 = 0
+Run: 110, exploration: 0.1, score: -1493.393701140998
+How many rewards > 0 = 0
+Run: 111, exploration: 0.1, score: -1494.241566437041
+How many rewards > 0 = 0
+Run: 112, exploration: 0.1, score: -1461.326912335643
+How many rewards > 0 = 0
+Run: 113, exploration: 0.1, score: -1505.61952178967
+How many rewards > 0 = 0
+Run: 114, exploration: 0.1, score: -1497.5822308813008
+How many rewards > 0 = 0
+Run: 115, exploration: 0.1, score: -1505.199423260715
+How many rewards > 0 = 0
+Run: 116, exploration: 0.1, score: -1506.3582389604337
+How many rewards > 0 = 0
+Run: 117, exploration: 0.1, score: -1497.744118610216
+How many rewards > 0 = 0
+Run: 118, exploration: 0.1, score: -1467.3036824326691
+How many rewards > 0 = 0
+Run: 119, exploration: 0.1, score: -1490.9070571924813
+How many rewards > 0 = 0
+Run: 120, exploration: 0.1, score: -1485.8763395718156
+How many rewards > 0 = 0
+Run: 121, exploration: 0.1, score: -1502.9438537488502
+How many rewards > 0 = 0
+Run: 122, exploration: 0.1, score: -1483.499343810982
+How many rewards > 0 = 0
+Run: 123, exploration: 0.1, score: -1453.8261568546402
+How many rewards > 0 = 0
+Run: 124, exploration: 0.1, score: -1491.4529755506114
+How many rewards > 0 = 0
+Run: 125, exploration: 0.1, score: -1461.4254440689408
+How many rewards > 0 = 0
+Run: 126, exploration: 0.1, score: -1498.7822606633315
+How many rewards > 0 = 0
+Run: 127, exploration: 0.1, score: -1502.304204579815
+How many rewards > 0 = 0
+Run: 128, exploration: 0.1, score: -1474.9636390139042
+How many rewards > 0 = 0
+Run: 129, exploration: 0.1, score: -1481.9579512064288
+How many rewards > 0 = 0
+Run: 130, exploration: 0.1, score: -1501.6710677879664
+How many rewards > 0 = 0
+Run: 131, exploration: 0.1, score: -1499.595291133755
+How many rewards > 0 = 0
+Run: 132, exploration: 0.1, score: -1502.1112646352276
+How many rewards > 0 = 0
+Run: 133, exploration: 0.1, score: -1495.465165620368
+How many rewards > 0 = 0
+Run: 134, exploration: 0.1, score: -1495.642847121029
+How many rewards > 0 = 0
+Run: 135, exploration: 0.1, score: -1495.556727718628
+How many rewards > 0 = 0
+Run: 136, exploration: 0.1, score: -1477.9414365015944
+How many rewards > 0 = 0
+Run: 137, exploration: 0.1, score: -1498.5791285579344
+How many rewards > 0 = 0
+Run: 138, exploration: 0.1, score: -1483.5794450972512
+How many rewards > 0 = 0
+Run: 139, exploration: 0.1, score: -1497.2626150485394
+How many rewards > 0 = 0
+Run: 140, exploration: 0.1, score: -1486.901002715729
+How many rewards > 0 = 0
+Run: 141, exploration: 0.1, score: -1498.502449901874
+How many rewards > 0 = 0
+Run: 142, exploration: 0.1, score: -1482.9298800256527
+How many rewards > 0 = 0
+Run: 143, exploration: 0.1, score: -1498.511060990973
+How many rewards > 0 = 0
+Run: 144, exploration: 0.1, score: -1471.1640790626775
+How many rewards > 0 = 0
+Run: 145, exploration: 0.1, score: -1496.8868631658731
+How many rewards > 0 = 0
+Run: 146, exploration: 0.1, score: -1481.9860921373056
+How many rewards > 0 = 0
+Run: 147, exploration: 0.1, score: -1499.7045819074935
+How many rewards > 0 = 0
+Run: 148, exploration: 0.1, score: -1498.9963184274575
+How many rewards > 0 = 0
+Run: 149, exploration: 0.1, score: -1487.298816810878
+How many rewards > 0 = 0
+Run: 150, exploration: 0.1, score: -1479.3411708613448
+How many rewards > 0 = 0
+Run: 151, exploration: 0.1, score: -1496.8176313181095
+How many rewards > 0 = 0
+Run: 152, exploration: 0.1, score: -1461.4005975050025
+How many rewards > 0 = 0
+Run: 153, exploration: 0.1, score: -1498.6293529030534
+How many rewards > 0 = 0
+Run: 154, exploration: 0.1, score: -1496.3774219688346
+How many rewards > 0 = 0
+Run: 155, exploration: 0.1, score: -1439.3400840352015
+How many rewards > 0 = 0
+Run: 156, exploration: 0.1, score: -1496.6786079869034
+How many rewards > 0 = 0
+Run: 157, exploration: 0.1, score: -1473.934173914501
+How many rewards > 0 = 0
+Run: 158, exploration: 0.1, score: -1494.7738172787306
+How many rewards > 0 = 0
+Run: 159, exploration: 0.1, score: -1494.4904357959501
+How many rewards > 0 = 0
+Run: 160, exploration: 0.1, score: -1493.5242974534399
+How many rewards > 0 = 0
+Run: 161, exploration: 0.1, score: -1466.0792828729748
+How many rewards > 0 = 0
+Run: 162, exploration: 0.1, score: -1491.829562408624
+How many rewards > 0 = 0
+Run: 163, exploration: 0.1, score: -1489.8587057898176
+How many rewards > 0 = 0
+Run: 164, exploration: 0.1, score: -1502.283830024855
+How many rewards > 0 = 0
+Run: 165, exploration: 0.1, score: -1481.4695366956266
+How many rewards > 0 = 0
+Run: 166, exploration: 0.1, score: -1501.5240779688393
+How many rewards > 0 = 0
+Run: 167, exploration: 0.1, score: -1492.3606941028286
+How many rewards > 0 = 0
+Run: 168, exploration: 0.1, score: -1481.9440553632467
+How many rewards > 0 = 0
+Run: 169, exploration: 0.1, score: -1469.6330483983006
+How many rewards > 0 = 0
+Run: 170, exploration: 0.1, score: -1483.1472121129902
+How many rewards > 0 = 0
+Run: 171, exploration: 0.1, score: -1482.3516784925182
+How many rewards > 0 = 0
+Run: 172, exploration: 0.1, score: -1475.024960274593
+How many rewards > 0 = 0
+Run: 173, exploration: 0.1, score: -1498.1325948462409
+How many rewards > 0 = 0
+Run: 174, exploration: 0.1, score: -1473.866909203038
+How many rewards > 0 = 0
+Run: 175, exploration: 0.1, score: -1465.494620434928
+How many rewards > 0 = 0
+Run: 176, exploration: 0.1, score: -1494.5008211051302
+How many rewards > 0 = 0
+Run: 177, exploration: 0.1, score: -1498.7605041724414
+How many rewards > 0 = 0
+Run: 178, exploration: 0.1, score: -1500.205475545038
+How many rewards > 0 = 0
+Run: 179, exploration: 0.1, score: -1492.8956138826218
+How many rewards > 0 = 0
+Run: 180, exploration: 0.1, score: -1443.2441537212346
+How many rewards > 0 = 0
+Run: 181, exploration: 0.1, score: -1487.2382917985392
+How many rewards > 0 = 0
+Run: 182, exploration: 0.1, score: -1504.9223287809662
+How many rewards > 0 = 0
+Run: 183, exploration: 0.1, score: -1476.7885709429468
+How many rewards > 0 = 0
+Run: 184, exploration: 0.1, score: -1424.4362298127244
+How many rewards > 0 = 0
+Run: 185, exploration: 0.1, score: -1498.8014596543226
+How many rewards > 0 = 0
+Run: 186, exploration: 0.1, score: -1487.6547692849201
+How many rewards > 0 = 0
+Run: 187, exploration: 0.1, score: -1499.3886422959663
+How many rewards > 0 = 0
+Run: 188, exploration: 0.1, score: -1489.3921487037937
+How many rewards > 0 = 0
+Run: 189, exploration: 0.1, score: -1499.6891701078425
+How many rewards > 0 = 0
+Run: 190, exploration: 0.1, score: -1457.1786124134092
+How many rewards > 0 = 0
+Run: 191, exploration: 0.1, score: -1498.977297642364
+How many rewards > 0 = 0
+Run: 192, exploration: 0.1, score: -1498.397154323719
+How many rewards > 0 = 0
+Run: 193, exploration: 0.1, score: -1479.3768276003177
+How many rewards > 0 = 0
+Run: 194, exploration: 0.1, score: -1492.7218732637843
+How many rewards > 0 = 0
+Run: 195, exploration: 0.1, score: -1506.1584425164626
+How many rewards > 0 = 0
+Run: 196, exploration: 0.1, score: -1463.9229120656307
+How many rewards > 0 = 0
+Run: 197, exploration: 0.1, score: -1503.7527438069387
+How many rewards > 0 = 0
+Run: 198, exploration: 0.1, score: -1471.320758382803
+How many rewards > 0 = 0
+Run: 199, exploration: 0.1, score: -1494.646509091574
+How many rewards > 0 = 0
+Run: 200, exploration: 0.1, score: -1493.8759677527098
+How many rewards > 0 = 0
+Run: 201, exploration: 0.1, score: -1458.0261167424494
+How many rewards > 0 = 0
+Run: 202, exploration: 0.1, score: -1491.828157183236
+How many rewards > 0 = 0
+Run: 203, exploration: 0.1, score: -1472.1257212261955
+How many rewards > 0 = 0
+Run: 204, exploration: 0.1, score: -1492.7005548227369
+How many rewards > 0 = 0
+Run: 205, exploration: 0.1, score: -1479.827352960589
+How many rewards > 0 = 0
+Run: 206, exploration: 0.1, score: -1487.712640496282
+How many rewards > 0 = 0
+Run: 207, exploration: 0.1, score: -1495.3053750958725
+How many rewards > 0 = 0
+Run: 208, exploration: 0.1, score: -1488.0935451531732
+How many rewards > 0 = 0
+Run: 209, exploration: 0.1, score: -1494.966030037742
+How many rewards > 0 = 0
+Run: 210, exploration: 0.1, score: -1467.9584747820097
+How many rewards > 0 = 0
+Run: 211, exploration: 0.1, score: -1446.068842387739
+How many rewards > 0 = 0
+Run: 212, exploration: 0.1, score: -1478.2196588799334
+How many rewards > 0 = 0
+Run: 213, exploration: 0.1, score: -1498.351060859647
+How many rewards > 0 = 0
+Run: 214, exploration: 0.1, score: -1499.3782623290454
+How many rewards > 0 = 0
+Run: 215, exploration: 0.1, score: -1502.9299381496653
+How many rewards > 0 = 0
+Run: 216, exploration: 0.1, score: -1494.560273808147
+How many rewards > 0 = 0
+Run: 217, exploration: 0.1, score: -1493.034223797442
+How many rewards > 0 = 0
+Run: 218, exploration: 0.1, score: -1501.4534787911248
+How many rewards > 0 = 0
+Run: 219, exploration: 0.1, score: -1468.242935133618
+How many rewards > 0 = 0
+Run: 220, exploration: 0.1, score: -1487.4176312239001
+How many rewards > 0 = 0
+Run: 221, exploration: 0.1, score: -1448.8157240136516
+How many rewards > 0 = 0
+Run: 222, exploration: 0.1, score: -1505.447010341421
+How many rewards > 0 = 0
+Run: 223, exploration: 0.1, score: -1477.9671902385328
+How many rewards > 0 = 0
+Run: 224, exploration: 0.1, score: -1456.595675643717
+How many rewards > 0 = 0
+Run: 225, exploration: 0.1, score: -1487.4425567457424
+How many rewards > 0 = 0
+Run: 226, exploration: 0.1, score: -1492.0936746662942
+How many rewards > 0 = 0
+Run: 227, exploration: 0.1, score: -1471.6317862926066
+How many rewards > 0 = 0
+Run: 228, exploration: 0.1, score: -1474.4720998104704
+How many rewards > 0 = 0
+Run: 229, exploration: 0.1, score: -1488.2288818879022
+How many rewards > 0 = 0
+Run: 230, exploration: 0.1, score: -1496.0725575405359
+How many rewards > 0 = 0
+Run: 231, exploration: 0.1, score: -1491.4156771462926
+How many rewards > 0 = 0
+Run: 232, exploration: 0.1, score: -1489.4168603728403
+How many rewards > 0 = 0
+Run: 233, exploration: 0.1, score: -1499.4622880150766
+How many rewards > 0 = 0
+Run: 234, exploration: 0.1, score: -1433.5126379557769
+How many rewards > 0 = 0
+Run: 235, exploration: 0.1, score: -1490.5393963513523
+How many rewards > 0 = 0
+Run: 236, exploration: 0.1, score: -1493.671253850386
+How many rewards > 0 = 0
+Run: 237, exploration: 0.1, score: -1505.2097396545407
+How many rewards > 0 = 0
+Run: 238, exploration: 0.1, score: -1465.1481812459715
+How many rewards > 0 = 0
+Run: 239, exploration: 0.1, score: -1498.6874972790288
+How many rewards > 0 = 0
+Run: 240, exploration: 0.1, score: -1493.0880096275878
+How many rewards > 0 = 0
+Run: 241, exploration: 0.1, score: -1464.9161101215216
+How many rewards > 0 = 0
+Run: 242, exploration: 0.1, score: -1504.425598042317
+How many rewards > 0 = 0
+Run: 243, exploration: 0.1, score: -1499.1767723588496
+How many rewards > 0 = 0
+Run: 244, exploration: 0.1, score: -1504.856261175617
+How many rewards > 0 = 0
+Run: 245, exploration: 0.1, score: -1495.162268421553
+How many rewards > 0 = 0
+Run: 246, exploration: 0.1, score: -1479.8264442317798
+How many rewards > 0 = 0
+Run: 247, exploration: 0.1, score: -1487.129546920933
+How many rewards > 0 = 0
+Run: 248, exploration: 0.1, score: -1495.854779975557
+How many rewards > 0 = 0
+Run: 249, exploration: 0.1, score: -1489.2756757232519
+How many rewards > 0 = 0
+Run: 250, exploration: 0.1, score: -1490.4474835062645
+How many rewards > 0 = 0
+Run: 251, exploration: 0.1, score: -1409.2650688331853
+How many rewards > 0 = 0
+Run: 252, exploration: 0.1, score: -1485.2987071925527
+How many rewards > 0 = 0
+Run: 253, exploration: 0.1, score: -1495.1369372146398
+How many rewards > 0 = 0
+Run: 254, exploration: 0.1, score: -1479.254288711148
+How many rewards > 0 = 0
+Run: 255, exploration: 0.1, score: -1488.8954868913333
+How many rewards > 0 = 0
+Run: 256, exploration: 0.1, score: -1473.55572571696
+How many rewards > 0 = 0
+Run: 257, exploration: 0.1, score: -1478.9418371529555
+How many rewards > 0 = 0
+Run: 258, exploration: 0.1, score: -1500.968112875759
+How many rewards > 0 = 0
+Run: 259, exploration: 0.1, score: -1496.1911171655447
+How many rewards > 0 = 0
+Run: 260, exploration: 0.1, score: -1495.54456967583
+How many rewards > 0 = 0
+Run: 261, exploration: 0.1, score: -1502.5190272181337
+How many rewards > 0 = 0
+Run: 262, exploration: 0.1, score: -1498.0105258171734
+How many rewards > 0 = 0
+Run: 263, exploration: 0.1, score: -1499.795843481443
+How many rewards > 0 = 0
+Run: 264, exploration: 0.1, score: -1503.1796367601016
+How many rewards > 0 = 0
+Run: 265, exploration: 0.1, score: -1487.1023364015632
+How many rewards > 0 = 0
+Run: 266, exploration: 0.1, score: -1500.1649319722744
+How many rewards > 0 = 0
+Run: 267, exploration: 0.1, score: -1430.4322617043529
+How many rewards > 0 = 0
+Run: 268, exploration: 0.1, score: -1482.4160730718932
+How many rewards > 0 = 0
+Run: 269, exploration: 0.1, score: -1419.6165441972441
+How many rewards > 0 = 0
+Run: 270, exploration: 0.1, score: -1490.5469990381202
+How many rewards > 0 = 0
+Run: 271, exploration: 0.1, score: -1497.828767879698
+How many rewards > 0 = 0
+Run: 272, exploration: 0.1, score: -1473.6212188071972
+How many rewards > 0 = 0
+Run: 273, exploration: 0.1, score: -1503.8878430177656
+How many rewards > 0 = 0
+Run: 274, exploration: 0.1, score: -1445.1257320066804
+How many rewards > 0 = 0
+Run: 275, exploration: 0.1, score: -1487.0382647872539
+How many rewards > 0 = 0
+Run: 276, exploration: 0.1, score: -1503.5950844484807
+How many rewards > 0 = 0
+Run: 277, exploration: 0.1, score: -1487.3923650190263
+How many rewards > 0 = 0
+Run: 278, exploration: 0.1, score: -1498.9093156101555
+How many rewards > 0 = 0
+Run: 279, exploration: 0.1, score: -1502.9241506221624
+How many rewards > 0 = 0
+Run: 280, exploration: 0.1, score: -1485.1061808996687
+How many rewards > 0 = 0
+Run: 281, exploration: 0.1, score: -1428.504238841639
+How many rewards > 0 = 0
+Run: 282, exploration: 0.1, score: -1484.44559089708
+How many rewards > 0 = 0
+Run: 283, exploration: 0.1, score: -1503.3365241812014
+How many rewards > 0 = 0
+Run: 284, exploration: 0.1, score: -1461.7992434440791
+How many rewards > 0 = 0
+Run: 285, exploration: 0.1, score: -1454.4701827138383
+How many rewards > 0 = 0
+Run: 286, exploration: 0.1, score: -1453.2709791187738
+How many rewards > 0 = 0
+Run: 287, exploration: 0.1, score: -1493.036575385883
+How many rewards > 0 = 0
+Run: 288, exploration: 0.1, score: -1467.2140035635593
+How many rewards > 0 = 0
+Run: 289, exploration: 0.1, score: -1466.1217020351305
+How many rewards > 0 = 0
+Run: 290, exploration: 0.1, score: -1503.8396354697165
+How many rewards > 0 = 0
+Run: 291, exploration: 0.1, score: -1476.5579117198445
+How many rewards > 0 = 0
+Run: 292, exploration: 0.1, score: -1489.5823871614202
+How many rewards > 0 = 0
+Run: 293, exploration: 0.1, score: -1489.8597654969378
+How many rewards > 0 = 0
+Run: 294, exploration: 0.1, score: -1485.9776618550343
+How many rewards > 0 = 0
+Run: 295, exploration: 0.1, score: -1491.551111456618
+How many rewards > 0 = 0
+Run: 296, exploration: 0.1, score: -1465.8823771184439
+How many rewards > 0 = 0
+Run: 297, exploration: 0.1, score: -1501.1920839061909
+How many rewards > 0 = 0
+Run: 298, exploration: 0.1, score: -1493.2654750627507
+How many rewards > 0 = 0
+Run: 299, exploration: 0.1, score: -1499.489857926517
+How many rewards > 0 = 0
+Run: 300, exploration: 0.1, score: -1470.7834737614614
+How many rewards > 0 = 0
+Run: 301, exploration: 0.1, score: -1498.8690364098227
+How many rewards > 0 = 0
+Run: 302, exploration: 0.1, score: -1479.7368984006696
+How many rewards > 0 = 0
+Run: 303, exploration: 0.1, score: -1498.3498702843765
+How many rewards > 0 = 0
+Run: 304, exploration: 0.1, score: -1493.985915273827
+How many rewards > 0 = 0
+Run: 305, exploration: 0.1, score: -1488.8340904370623
+How many rewards > 0 = 0
+Run: 306, exploration: 0.1, score: -1497.1007356468876
+How many rewards > 0 = 0
+Run: 307, exploration: 0.1, score: -1505.6455849732909
+How many rewards > 0 = 0
+Run: 308, exploration: 0.1, score: -1477.4546905498594
+How many rewards > 0 = 0
+Run: 309, exploration: 0.1, score: -1504.4167438223806
+How many rewards > 0 = 0
+Run: 310, exploration: 0.1, score: -1500.8908046075471
+How many rewards > 0 = 0
+Run: 311, exploration: 0.1, score: -1499.3101746857897
+How many rewards > 0 = 0
+Run: 312, exploration: 0.1, score: -1497.413189027392
+How many rewards > 0 = 0
+Run: 313, exploration: 0.1, score: -1439.6871307615604
+How many rewards > 0 = 0
+Run: 314, exploration: 0.1, score: -1489.2943770014683
+How many rewards > 0 = 0
+Run: 315, exploration: 0.1, score: -1404.9986427053468
+How many rewards > 0 = 0
+Run: 316, exploration: 0.1, score: -1442.4148901320227
+How many rewards > 0 = 0
+Run: 317, exploration: 0.1, score: -1494.3358569296865
+How many rewards > 0 = 0
+Run: 318, exploration: 0.1, score: -1496.1797038575273
+How many rewards > 0 = 0
+Run: 319, exploration: 0.1, score: -1503.521933669805
+How many rewards > 0 = 0
+Run: 320, exploration: 0.1, score: -1494.3239093590505
+How many rewards > 0 = 0
+Run: 321, exploration: 0.1, score: -1487.4590615613843
+How many rewards > 0 = 0
+Run: 322, exploration: 0.1, score: -1486.5539630488704
+How many rewards > 0 = 0
+Run: 323, exploration: 0.1, score: -1491.5303126318902
+How many rewards > 0 = 0
+Run: 324, exploration: 0.1, score: -1493.610775842052
+How many rewards > 0 = 0
+Run: 325, exploration: 0.1, score: -1483.1970483471619
+How many rewards > 0 = 0
+Run: 326, exploration: 0.1, score: -1444.7916263401428
+How many rewards > 0 = 0
+Run: 327, exploration: 0.1, score: -1498.8119618353435
+How many rewards > 0 = 0
+Run: 328, exploration: 0.1, score: -1476.7138443473918
+How many rewards > 0 = 0
+Run: 329, exploration: 0.1, score: -1483.130460612558
+How many rewards > 0 = 0
+Run: 330, exploration: 0.1, score: -1444.9200712021275
+How many rewards > 0 = 0
+Run: 331, exploration: 0.1, score: -1499.5600354906142
+How many rewards > 0 = 0
+Run: 332, exploration: 0.1, score: -1482.2446682397267
+How many rewards > 0 = 0
+Run: 333, exploration: 0.1, score: -1476.8348694571762
+How many rewards > 0 = 0
+Run: 334, exploration: 0.1, score: -1503.584848472684
+How many rewards > 0 = 0
+Run: 335, exploration: 0.1, score: -1501.5294163704302
+How many rewards > 0 = 0
+Run: 336, exploration: 0.1, score: -1503.3251862450338
+How many rewards > 0 = 0
+Run: 337, exploration: 0.1, score: -1450.2135779745493
+How many rewards > 0 = 0
+Run: 338, exploration: 0.1, score: -1500.023393405123
+How many rewards > 0 = 0
+Run: 339, exploration: 0.1, score: -1503.0159612119144
+How many rewards > 0 = 0
+Run: 340, exploration: 0.1, score: -1491.5075912097
+How many rewards > 0 = 0
+Run: 341, exploration: 0.1, score: -1502.4353122322207
+How many rewards > 0 = 0
+Run: 342, exploration: 0.1, score: -1457.2205949626596
+How many rewards > 0 = 0
+Run: 343, exploration: 0.1, score: -1495.7323221147838
+How many rewards > 0 = 0
+Run: 344, exploration: 0.1, score: -1466.4578788842402
+How many rewards > 0 = 0
+Run: 345, exploration: 0.1, score: -1501.072650110064
+How many rewards > 0 = 0
+Run: 346, exploration: 0.1, score: -1490.0827655687276
+How many rewards > 0 = 0
+Run: 347, exploration: 0.1, score: -1492.694503697166
+How many rewards > 0 = 0
+Run: 348, exploration: 0.1, score: -1498.4988326780417
+How many rewards > 0 = 0
+Run: 349, exploration: 0.1, score: -1437.6167555285272
+How many rewards > 0 = 0
+Run: 350, exploration: 0.1, score: -1500.517146177928
+How many rewards > 0 = 0
+Run: 351, exploration: 0.1, score: -1458.6318099036814
+How many rewards > 0 = 0
+Run: 352, exploration: 0.1, score: -1459.5045091155048
+How many rewards > 0 = 0
+Run: 353, exploration: 0.1, score: -1470.3316831869424
+How many rewards > 0 = 0
+Run: 354, exploration: 0.1, score: -1486.8945026781148
+How many rewards > 0 = 0
+Run: 355, exploration: 0.1, score: -1500.6876470447753
+How many rewards > 0 = 0
+Run: 356, exploration: 0.1, score: -1480.565446017771
+How many rewards > 0 = 0
+Run: 357, exploration: 0.1, score: -1504.0846935880872
+How many rewards > 0 = 0
+Run: 358, exploration: 0.1, score: -1483.1779172371396
+How many rewards > 0 = 0
+Run: 359, exploration: 0.1, score: -1458.9862974838322
+How many rewards > 0 = 0
+Run: 360, exploration: 0.1, score: -1481.2341710420114
+How many rewards > 0 = 0
+Run: 361, exploration: 0.1, score: -1486.6050691346998
+How many rewards > 0 = 0
+Run: 362, exploration: 0.1, score: -1503.2440239883695
+How many rewards > 0 = 0
+Run: 363, exploration: 0.1, score: -1498.5013359091909
+How many rewards > 0 = 0
+Run: 364, exploration: 0.1, score: -1465.2569950648133
+How many rewards > 0 = 0
+Run: 365, exploration: 0.1, score: -1492.347511549627
+How many rewards > 0 = 0
+Run: 366, exploration: 0.1, score: -1451.09366869931
+How many rewards > 0 = 0
+Run: 367, exploration: 0.1, score: -1479.4713996331598
+How many rewards > 0 = 0
+Run: 368, exploration: 0.1, score: -1478.6496052950665
+How many rewards > 0 = 0
+Run: 369, exploration: 0.1, score: -1491.1674747467925
+How many rewards > 0 = 0
+Run: 370, exploration: 0.1, score: -1501.6477169976436
+How many rewards > 0 = 0
+Run: 371, exploration: 0.1, score: -1480.3440564204327
+How many rewards > 0 = 0
+Run: 372, exploration: 0.1, score: -1501.485994046838
+How many rewards > 0 = 0
+Run: 373, exploration: 0.1, score: -1483.2747389295434
+How many rewards > 0 = 0
+Run: 374, exploration: 0.1, score: -1494.2467035383436
+How many rewards > 0 = 0
+Run: 375, exploration: 0.1, score: -1465.5157221144336
+How many rewards > 0 = 0
+Run: 376, exploration: 0.1, score: -1493.2121964540556
+How many rewards > 0 = 0
+Run: 377, exploration: 0.1, score: -1483.481169248641
+How many rewards > 0 = 0
+Run: 378, exploration: 0.1, score: -1492.101923434468
+How many rewards > 0 = 0
+Run: 379, exploration: 0.1, score: -1500.146677543337
+How many rewards > 0 = 0
+Run: 380, exploration: 0.1, score: -1494.077825105435
+How many rewards > 0 = 0
+Run: 381, exploration: 0.1, score: -1489.0310924452651
+How many rewards > 0 = 0
+Run: 382, exploration: 0.1, score: -1490.3125599443056
+How many rewards > 0 = 0
+Run: 383, exploration: 0.1, score: -1456.5145838236635
+How many rewards > 0 = 0
+Run: 384, exploration: 0.1, score: -1476.882600562472
+How many rewards > 0 = 0
+Run: 385, exploration: 0.1, score: -1435.9393489743552
+How many rewards > 0 = 0
+Run: 386, exploration: 0.1, score: -1478.7340461092115
+How many rewards > 0 = 0
+Run: 387, exploration: 0.1, score: -1491.2882640759708
+How many rewards > 0 = 0
+Run: 388, exploration: 0.1, score: -1492.9628611752366
+How many rewards > 0 = 0
+Run: 389, exploration: 0.1, score: -1475.6527605866074
+How many rewards > 0 = 0
+Run: 390, exploration: 0.1, score: -1487.977135816914
+How many rewards > 0 = 0
+Run: 391, exploration: 0.1, score: -1487.5448058223537
+How many rewards > 0 = 0
+Run: 392, exploration: 0.1, score: -1390.1405950560677
+How many rewards > 0 = 0
+Run: 393, exploration: 0.1, score: -1417.836880035138
+How many rewards > 0 = 0
+Run: 394, exploration: 0.1, score: -1458.9058211132676
+How many rewards > 0 = 0
+Run: 395, exploration: 0.1, score: -1496.3850718516242
+How many rewards > 0 = 0
+Run: 396, exploration: 0.1, score: -1492.7895377534578
+How many rewards > 0 = 0
+Run: 397, exploration: 0.1, score: -1496.8041892720662
+How many rewards > 0 = 0
+Run: 398, exploration: 0.1, score: -1504.7474090790602
+How many rewards > 0 = 0
+Run: 399, exploration: 0.1, score: -1457.6527844874402
+How many rewards > 0 = 0
