@@ -1,2 +1,2 @@
-These four .v files are the core of this project, other files are automatically created by vivado
+These four .v files and .c file are the core of this project, other files are automatically created by vivado
 It is required hardware (FPGA, ADC converter, DAC converter) to run the whole project
